@@ -9,7 +9,7 @@
     <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
 
     <!-- Set this to 'false' if you want your app to launch as a Win32 application -->
-    <WindowsAppContainer>false</WindowsAppContainer>
+    <WindowsAppContainer>true</WindowsAppContainer>
   </PropertyGroup>
 
   <ItemGroup>

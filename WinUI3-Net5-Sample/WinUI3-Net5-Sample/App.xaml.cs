@@ -36,7 +36,7 @@ namespace WinUI3_Net5_Sample
             this.Suspending += OnSuspending;
         }
         
-        public bool InAppContainer
+        public static bool InAppContainer
         {
             get;
             private set;

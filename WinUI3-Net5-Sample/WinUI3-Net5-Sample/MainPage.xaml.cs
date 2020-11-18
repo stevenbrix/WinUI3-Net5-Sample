@@ -26,12 +26,10 @@ namespace WinUI3_Net5_Sample
         public MainPage()
         {
             this.InitializeComponent();
-            appType = InAppContainer ? "UWP" : "Win32";
         }
 
-        public bool InAppContainer => (App.Current as App).InAppContainer;
 
-        private string appType;
+        private string appType = App.InAppContainer ? "UWP" : "Win32";
         public string AppType
         {
             get => $"Hello from {appType}";

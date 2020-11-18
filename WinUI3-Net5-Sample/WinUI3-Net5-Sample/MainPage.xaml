@@ -10,6 +10,6 @@
 
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBlock Text="{x:Bind AppType}"/>
-        <Button Click="Button_Click" IsEnabled="{x:Bind InAppContainer}">Click for compact overlay</Button>
+        <Button Click="Button_Click" IsEnabled="{x:Bind local:App.InAppContainer}">Click for compact overlay</Button>
     </StackPanel>
 </Page>
